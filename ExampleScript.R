@@ -9,4 +9,5 @@ mtcars %>% ggplot()+
   geom_point(aes(x = hp,
                  y = mpg,
                  size = cyl,
-                 color = gear))
+                 color = gear))+
+  ggtitle("Mpg vs hp")
